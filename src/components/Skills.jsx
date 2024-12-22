@@ -3,7 +3,7 @@ import { DATA } from "../constants/index.js";
 
 const Skills = () => {
   return (
-    <section className="mx-auto w-full max-w-2xl px-0 md:px-2 mt-6">
+    <section className="mx-auto w-full max-w-2xl px-0 md:px-4 mt-6">
       <h2 className="text-xl font-poppins text-[#08090a] font-bold mb-2">
         Skills
       </h2>
