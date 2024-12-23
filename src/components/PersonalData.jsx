@@ -23,7 +23,7 @@ const PersonalData = () => {
             }`}
             data-state="closed"
             rel="noopener noreferrer"
-            target="_blank"
+            target={index === 0 ? "_self" : "_blank"}
             href={link.href}
           >
             <link.icon />
