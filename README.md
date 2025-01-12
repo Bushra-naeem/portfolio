@@ -64,6 +64,14 @@ portfolio/
 
 ---
 
+## 🎥 Live Demo
+
+**Check out the live demo here:**
+
+https://github.com/user-attachments/assets/00b5cc76-f209-4a14-9e3e-fe40b8512d8e
+
+---
+
 ## 🤝 Contributions
 
 I'd love your input! Here's how you can contribute:
