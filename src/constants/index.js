@@ -6,6 +6,7 @@ import image4 from "./../assets/images/image4.png";
 import unilogo from "./../assets/images/unilogo.jpeg";
 import kplogo from "./../assets/images/kplogo.jpg";
 import gothinklogo from "./../assets/images/gothinklogo.jpeg";
+import bizaffixlogo from "./../assets/icons/bizaffix-logo.jpg";
 import HomeIcon from "../assets/icons/HomeIcon";
 import GithubIcon from "../assets/icons/GithubIcon";
 import InstagramIcon from "../assets/icons/InstagramIcon";
@@ -91,22 +92,17 @@ export const projects = [
   },
   {
     image: image3,
-    title: "Shopix - Ecommerce App",
-    href: "https://shopix-ecommerce-app.netlify.app/",
+    title: "Event Sync",
+    href: "https://github.com/Bushra-naeem/event-sync",
     dates: "May 2023 - Sept 2023",
     active: true,
     description:
-      "This ecommerce app, allows users to browse separate categories for men and women and use a search bar to find specific products. Users can add items to the cart, remove items, and view the total price. The app also suggests related products and includes a simple checkout form.",
-    technologies: ["React.js", "Javascript", "Tailwind CSS"],
+      "Event Sync is a full-stack web app that enables users to create, manage, and participate in events. Users can add new events, edit existing ones, delete events, and view a list of all events. Additionally, reminders can be toggled for each event, ensuring they never miss an important date.",
+    technologies: ["React.js", "Node.js", "MongoDB", "JavaScript"],
     links: [
       {
-        type: "Website",
-        href: "https://shopix-ecommerce-app.netlify.app/",
-        icon: <Globe className="size-3" />,
-      },
-      {
         type: "Source",
-        href: "https://github.com/Bushra-naeem/ecommerce-store",
+        href: "https://github.com/Bushra-naeem/event-sync",
         icon: <Github className="size-3" />,
       },
     ],
@@ -148,6 +144,18 @@ export const education = [
 ];
 
 export const experience = [
+  {
+    logoUrl: bizaffixlogo,
+    work: "Bizaffix",
+    href: "https://www.linkedin.com/company/bizaffix/posts/?feedView=all",
+    role: "Frontend Developer",
+    period: "Feb 2025 - Present",
+    description: [
+      "Translated wireframes into functional and responsive front-end code, contributing to a seamless user experience and efficient project development.",
+      "Collaborated closely with backend developers and designers, ensuring smooth integration of design elements and APIs to meet project requirements and deadlines.",
+      "Followed best coding practices, including clean and maintainable code, and integrated RESTful APIs and services, which enhanced the overall project performance and scalability",
+    ],
+  },
   {
     logoUrl: gothinklogo,
     work: "Go Think Digital",
