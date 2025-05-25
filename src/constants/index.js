@@ -14,7 +14,7 @@ import LinkedinIcon from "../assets/icons/LinkedinIcon";
 
 export const DATA = {
   name: "Bushra Naeem",
-  role: "Frontend Developer",
+  role: "Software Engineer",
   description:
     "Hey there! I’m Bushra—an undergraduate in Software Engineering, specializing in Frontend Engineering, with a passion for crafting intuitive user experiences and turning innovative ideas into reality through code.",
   summary:
